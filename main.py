@@ -24,7 +24,7 @@ from random import randint
 
 for i in range(37, 85):
 
-    for j in range(0, randint(0, 3)):
+    for j in range(1, randint(1, 3)):
         d = str(i) + 'days ago'
         with open('data.txt', 'a') as file:
             file.write(d)
